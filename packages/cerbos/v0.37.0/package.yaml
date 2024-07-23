@@ -1,0 +1,24 @@
+---
+# yaml-language-server: $schema=https://glasskube.dev/schemas/v1/package-manifest.json
+name: cerbos
+shortDescription: Open source policy decision point for implementing externalized authorization
+defaultNamespace: cerbos
+iconUrl: https://download.cerbos.dev/helm-charts/cerbie.png
+helm:
+  chartName: cerbos
+  chartVersion: 0.37.0
+  repositoryUrl: https://download.cerbos.dev/helm-charts
+entrypoints:
+  - serviceName: cerbos
+    port: 3592
+    localPort: 3592
+    name: http
+  - serviceName: cerbos
+    port: 3593
+    localPort: 3593
+    name: grpc
+references:
+  - label: GitHub
+    url: https://github.com/cerbos/cerbos
+  - label: Website
+    url: https://cerbos.dev

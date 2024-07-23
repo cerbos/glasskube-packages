@@ -2,7 +2,8 @@ packages:
   - iconUrl: https://avatars.githubusercontent.com/u/91915613
     latestVersion: v0.12.20+1
     name: akri
-    shortDescription: Akri lets you easily expose heterogeneous leaf devices (such
+    shortDescription:
+      Akri lets you easily expose heterogeneous leaf devices (such
       as IP cameras and USB devices) as resources in a Kubernetes cluster
   - iconUrl: https://avatars.githubusercontent.com/u/30269780
     latestVersion: v2.11.3+1
@@ -13,6 +14,10 @@ packages:
     name: caddy-ingress-controller
     scope: Cluster
     shortDescription: This is the Kubernetes Ingress Controller for Caddy
+  - iconUrl: https://download.cerbos.dev/helm-charts/cerbie.png
+    latestVersion: v0.37.0
+    name: cerbos
+    shortDescription: Open source policy decision point for implementing externalized authorization
   - iconUrl: https://avatars.githubusercontent.com/u/39950598
     latestVersion: v1.15.1+1
     name: cert-manager
@@ -28,7 +33,8 @@ packages:
   - iconUrl: https://avatars.githubusercontent.com/u/36015203
     latestVersion: v1.1.0
     name: gateway-api
-    shortDescription: The Gateway API provides a standardized way to configure and
+    shortDescription:
+      The Gateway API provides a standardized way to configure and
       manage network traffic routing in Kubernetes clusters.
   - iconUrl: https://avatars.githubusercontent.com/u/122369679
     latestVersion: v0.24.1+1
@@ -38,7 +44,8 @@ packages:
   - iconUrl: https://avatars.githubusercontent.com/u/13629408
     latestVersion: v1.9.5+1
     name: ingress-nginx
-    shortDescription: ingress-nginx is an Ingress controller for Kubernetes using
+    shortDescription:
+      ingress-nginx is an Ingress controller for Kubernetes using
       NGINX as a reverse proxy and load balancer.
   - iconUrl: https://avatars.githubusercontent.com/u/128535266?s=150
     latestVersion: v0.1.3+1
